@@ -1,3 +1,253 @@
+
+@media (max-width: 1880px){
+    .sign{
+        margin-left: 90px;
+    }
+    .btn_up{
+        margin-left: 60px;
+        height: 40px;
+    }
+    .front_chart{
+        display:none;
+    }
+    .logos{
+        margin-left: 340px;
+    }
+    p{
+        line-height: 30px;
+    }
+    .automated{
+        margin-left: 330px;
+        margin-top: 50px;
+    }
+    .automated_logo{
+        margin-right: 300px;
+        margin-top: 20px;
+    }
+    .fully{
+        margin-right: 300px;
+        margin-top: 110px;
+    }
+    .fully_logo{
+        margin-left: 330px;
+        margin-top: 50px;
+    }
+    .prebuilt{
+        margin-left: -230px;
+        margin-top: 50px;
+    }
+    .prebuilt_logo{
+        margin-right: 300px;
+        margin-top: 40px;
+    }
+    .buys_plans{
+        margin-left: 370px;
+    }
+    .last_hr{
+        margin-left: 370px;
+    }
+    .footer_nav{
+        margin-left: -150px;
+    }
+}
+@media (max-width: 1848px){
+    .logo{
+        margin-left: 200px;
+    }
+    .analytics{
+        margin-left: -150px;
+    }
+    .nav{
+        margin-left: 20px;
+    }
+    .monitor_info{
+        margin-left: -150px;
+    }
+    .logos{
+        margin-left: 250px;
+    }
+    .prebuilt_logo{
+        margin-left: 300px;
+        margin-top: -300px;
+    }
+    .prebuilt{
+        margin-left: -350px;
+    }
+    .automated{
+        margin-left: 200px;
+    }
+    .fully_logo{
+        margin-left: 200px;
+    }
+    .buys_plans{
+        margin-left: 300px;
+    }
+    .last_hr{
+        margin-left: 300px;
+    }
+    .footer_nav{
+        margin-left: -270px;
+    }
+    .facebook{
+        margin-left: 160px;
+    }
+}
+@media (max-width: 1717px){
+    .sign{
+        margin-left: 60px;
+    }
+    .btn_up{
+        margin-left: 30px;
+    }
+    h1{
+        font-size: 27px;
+    }
+    .monitor_text{
+        font-size: 15px;
+    }
+    .info{
+        width: 100%;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 1580px){
+    .logo{
+        margin-left: 150px;
+    }
+    .analytics{
+        margin-left: -190px;
+    }
+    .nav{
+        margin-left: -50px;
+    }
+    .sign{
+        margin-left: 60px;
+    }
+    .btn_up{
+        margin-left: 10px;
+    }
+    .monitor_info{
+        margin-left: -181px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .monitor_text{
+        font-size: 15px;
+    }
+    .info{
+        width: 100%;
+        margin-left: 20px;
+    }
+    .automated{
+        margin-left: 140px;
+    }
+    .fully_logo{
+        margin-left: 140px;
+    }
+    .prebuilt{
+        margin-left: -410px;
+    }
+    .prebuilt_logo{
+        margin-left: 211px;
+    }
+    .buys_plans{
+        margin-left:170px;
+    }
+    .last_hr{
+        margin-left: 170px;
+    }
+    .last_logo{
+        margin-left: 440px;
+    }
+    .last_analytics{
+        margin-left: -140px;
+    }
+}
+@media (max-width: 1263px){
+    .logo{
+        margin-left: 70px;
+    }
+    .analytics{
+        margin-left: -280px;
+    }
+    .sign{
+        margin-left: 70px;
+    }
+    .btn_up{
+        margin-left: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .monitor_info{
+        margin-left: -260px;
+    }
+    h1{
+        font-size: 23px;
+    }
+    .monitor_text{
+        font-size: 14px;
+    }
+    .info{
+        margin-left: 50px;
+    }
+    .info_img{
+        width: 150px;
+    }
+    .logos{
+        margin-left: 30px;
+    }
+    .automated{
+        margin-left: 60px;
+    }
+    .img_automated{
+        padding-bottom: 40px;
+        padding-right:90px;
+    }
+    h4{
+        font-size: 27px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .automated_logo{
+        margin-left: 550px;
+        margin-top: -250px;
+        width: 600px;
+        height: 300px;
+    }
+    .fully_logo{
+        margin-left: 60px;
+        width: 450px;
+        height: 300px;
+    }
+    .fully{
+        margin-left: 600px;
+        margin-top: -300px;
+    }
+    .prebuilt{
+        margin-left: -500px;
+    }
+    .prebuilt_logo{
+        margin-left: 20px;
+        margin-top:50px;
+        width: 400px;
+        height: 270px;
+        margin-bottom: 10px;
+    }
+    .buys_plans{
+        margin-left: 50px;
+    }
+    .last_hr{
+        margin-left: 50px;
+    }
+    .last_logo{
+        margin-left:330px;
+    }
+    .last_analytics{
+        margin-left: -250px;
+    }
+}
 @media (max-width: 375px){
     *{
         width: 100%;
@@ -6,13 +256,13 @@
         height: 880px;
     }
     .logo{
-        margin-left: 270px;
+        margin-left: 20px;
         margin-top: -10px;
         width: 30px;
         height: 30px;
     }
     .analytics{
-        padding-left: 310px;
+        padding-left: 335px;
         margin-top: -35px;
         font-size: 20px;
         font-weight: bold;
@@ -36,10 +286,10 @@
         width: 335px;
         height: 170px;
         margin-top: 26px;
-        margin-left: 20px;
+        margin-left: 280px;
     }
     .info{
-        margin-left: 20px;
+        margin-left: 280px;
         width:333px;
         height: 232px;
         margin-top: -150px;
@@ -84,7 +334,7 @@
     .features_text{
         margin-left: 20px;
         text-align: left;
-        font-size: 17px;
+        font-size: 15px;
         width: 335px;
     }
     .logos{
@@ -118,7 +368,7 @@
     .logo_text{
         margin-left: 110px;
         text-align: left;
-        font-size: 17px;
+        font-size: 11px;
         margin-top: 7px;
         width: 246px;
     }
@@ -130,7 +380,7 @@
     }
     p{
         font-weight: 400;
-        font-size: 14px;
+        font-size: 13px;
         line-height: 22px;
     }
     .automated_logo{
@@ -140,20 +390,18 @@
     .img_automated{
         width: 350px;
         height: 100%;
-        padding-left: 38px;
-        padding-top: 28px;
-        padding-right: 40px;
+        padding:68px 40px 10px 38px;
     }
     .fully{
         position: absolute;
         text-align: left;
         margin-left: 20px;
-        margin-top: 11px;
+        margin-top: -71px;
         font-size: 30px;
     }
     .fully_logo{
         margin-left:20px;
-        margin-top: 220px;
+        margin-top: 150px;
         margin-bottom: 30px;
         height: 100%;
         padding-bottom: 20px;
@@ -175,6 +423,7 @@
     .prebuilt_logo{
         position: absolute;
         margin-left:-530px;
+        margin-top: 150px;
         padding-left: 16px;
         padding-top: 9px;
         width: 335px;
@@ -223,21 +472,21 @@
         width: 335px;
     }
     .last_logo{
-        margin-left: 20px;
+        margin-left:290px;
     }
     .last_analytics{
-        margin-left: -560px;
+        margin-left: -290px;
         font-weight: bold;
         font-size: 23px;
     }
     .facebook{
-        margin-left: -60px;
+        margin-left: 20px;
     }
     .twitter{
-        margin-left: -30px;
+        margin-left: 15px;
     }
     .instagram{
-        margin-left: 5px;
+        margin-left: 15px;
     }
     .hamburger-menu{
         display: block;
@@ -329,66 +578,4 @@
 .menu__item {
     transition-duration: .25s;
 }
-}
-@media (min-width: 1265px) and (max-width: 1880px){
-    .sign{
-        margin-left: 90px;
-    }
-    .btn_up{
-        margin-left: 60px;
-        height: 40px;
-    }
-    .front_chart{
-        display:none;
-    }
-    .logos{
-        margin-left: 340px;
-    }
-    p{
-        line-height: 30px;
-    }
-    .automated{
-        margin-left: 330px;
-        margin-top: 50px;
-    }
-    .automated_logo{
-        margin-right: 300px;
-        margin-top: 20px;
-    }
-    .fully{
-        margin-right: 300px;
-        margin-top: 110px;
-    }
-    .fully_logo{
-        margin-left: 330px;
-        margin-top: 50px;
-    }
-    .prebuilt{
-        margin-left: -230px;
-        margin-top: 50px;
-    }
-    .prebuilt_logo{
-        margin-right: 300px;
-        margin-top: 40px;
-    }
-    .buys_plans{
-        margin-left: 370px;
-    }
-    .last_hr{
-        margin-left: 370px;
-    }
-    .footer_nav{
-        margin-left: -150px;
-    }
-}
-@media (max-width: 1263px){
-    .header{
-        margin-left: -250px;
-    }
-    .sign{
-        margin-left: 60px;
-    }
-    .btn_up{
-        margin-left: 300px;    
-    }
 }

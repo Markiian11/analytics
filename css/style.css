@@ -8,7 +8,7 @@
     scroll-behavior: smooth;
 }
 .monitor{
-    background:url(/icons/background-top.png) center center/cover no-repeat; 
+    background:url('../icons/background-top.png') center center/cover no-repeat; 
 }
 .logo{
     margin-left: 340px;
@@ -289,7 +289,7 @@ p{
     margin-top: 30px;
 }
 footer{
-    background:url(/icons/background-bottom.png) center center/cover no-repeat;
+    background:url('../icons/background-bottom.png') center center/cover no-repeat;
 }
 h5{
     font-weight: 700;
