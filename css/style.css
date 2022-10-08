@@ -8,17 +8,18 @@
     scroll-behavior: smooth;
 }
 .monitor{
-    background:url('../icons/background-top.png') center center/cover no-repeat; 
+    height: 960px;
+    background:url('../icons/background-top.png') center center/cover no-repeat;
 }
 .logo{
-    margin-left: 340px;
+    margin-left: 250px;
     margin-top: 50px;
     height: 40px;
     width: 40px;
     float:left;
 }
 .analytics{
-    padding-left: 400px;
+    padding-left: 300px;
     padding-top: 30px;
     color: #fff;
     font-weight: 400;
@@ -29,41 +30,58 @@
     display: flex;
     justify-content: space-between;
     list-style-type: none;
-    padding-top: 40px;
+    padding-top: 50px;
 }
-.nav{
+nav{
     display: flex;
     justify-content: space-between;
     list-style-type: none;
     padding-top: 60px;
 }
 .nav_a{
-    font-weight: 400;
-    width: 65px; 
+    font-weight: 400; 
     height: 19px;
     font-size: 16px;
     color: #8794BA;
     text-decoration: none;
     display: block;
-    padding-left:100px;
+}
+.nav_products{
+    font-weight: 400; 
+    height: 19px;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
+    display: block;
+    margin-left: -20px;
+}
+.nav_blog{
+    font-weight: 400; 
+    height: 19px;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
+    display: block;
+    margin-right: 220px;
 }
 .sign{
     padding-top: 60px;
-    margin-left: 314px; 
+    padding-left: 55px; 
     width: 208px;
     height: 19px;
     font-weight: 400;
     font-size: 16px;
     color: #8794BA;
     cursor: pointer;
+    white-space: nowrap;
 }
 .btn_up{
-    width: 615px;
+    width: 555px;
     height: 50px;
     font-weight: 400;
     font-size: 16px;
     color: #8794BA;
-    margin-right: 500px;
+    margin-right: 300px;
     margin-left: 93px;
     margin-top: 50px;
     background-color: rgb(0,0,0,0);
@@ -77,7 +95,8 @@
 }
 .main_info{
     width:550px;
-    margin-left: 340px;
+    margin-left: 250px;
+    margin-top: 30px;
 }
 .hamburger-menu{
     display: none;
@@ -106,7 +125,6 @@ h1{
     color: white;
     border:none;
     border-radius: 30px;
-    margin-bottom: 600px;
 }
 .btn_try:hover{
     cursor:pointer;
@@ -116,19 +134,21 @@ h1{
 .info{
     background-color: #fff;
     width: 804px;
-    height: 100%;
+    height: 605px;
     border-radius: 30px;
     margin-right: 150px;
-    margin-top: 84px;
-    margin-bottom: 100px;
+    margin-top: 130px;
+    padding-left: 20px;
+    box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
+    padding-top: 30px;
 }
 .monitor_info{
     display: flex;
     justify-content: space-between;
 }
 .info_img{
-    width: 240px;
-    height: 163px;
+    width: 245px;
+    height: 180px;
     padding-left: 35px;
     padding-top: 45px;
 }
@@ -152,6 +172,7 @@ h2{
     font-size: 40px;
     text-align: center;
     color: #172755;
+    margin-top: 161px;
 }
 .features_text{
     margin-top: 30px;
@@ -207,7 +228,7 @@ h3{
     width:600px;
     padding-bottom: 50px;
     margin-right: 500px;
-    margin-top: 169px;
+    margin-top: 219px;
     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
     border-radius: 30px;
 }
@@ -215,12 +236,13 @@ h3{
     width:600px;
     height:410px;
     margin-left: 570px;
-    margin-top: 109px;
+    margin-top: 131px;
     background: #FFFFFF;    
     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
     border-radius: 30px;
     padding-top: 60px;
-    padding-left: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .automated_reports{
     display: flex;
@@ -232,13 +254,13 @@ h3{
     width: 480px;
     height: 232px;
     margin-left: 570px;
-    margin-top: 209px;
+    margin-top: 249px;
 }
 .img_automated{
-    height: 312px;
-    width: 464px;
+    height: 100%;
+    width: 500px;
     padding-top: 90px;
-    padding-left: 70px;
+    padding-left: 50px;
 }
 .fully{
     width: 480px;
@@ -270,10 +292,14 @@ h3{
     background: #FFFFFF;
     box-shadow: 0px 18px 50px -15px rgba(25, 42, 89, 0.2);
     border-radius: 30px;
-    margin-bottom: 200px;
     width:600px;
     height:410px;
-    padding-top: 10px;
+    padding-top: 40px;
+    padding-right: 100px;
+}
+.prebuilt_img{
+    padding:30px 5px 40px 40px;
+    height: 100%;
 }
 h4{
     font-weight: 700;
@@ -290,6 +316,7 @@ p{
 }
 footer{
     background:url('../icons/background-bottom.png') center center/cover no-repeat;
+    padding-top: 310px;
 }
 h5{
     font-weight: 700;
@@ -297,7 +324,7 @@ h5{
     line-height: 47px;
     text-align: center;
     color: #FFFFFF;
-    padding-top: 395px;
+    padding-top: 95px;
 }
 .pricing_text{
     font-weight: 400;
@@ -386,6 +413,11 @@ hr{
     background: #2A407C;
     margin-left: 59px;
     margin-top: 37px;
+    border:none;
+}
+.standart_hr{
+    background:#D3D9E9;
+    border:none;
 }
 .price{
     font-weight: 700;
@@ -424,6 +456,7 @@ hr{
     width: 1180px;
     height: 1px;
     background: #2A407C;
+    border:none;
     margin-left: 580px;
     margin-top: 100px;
 }
@@ -432,12 +465,13 @@ hr{
     justify-content: space-between;
     list-style-type: none;
     padding-top: 69px;
+    padding-bottom: 111px;
 }
 .last_logo{
     width: 30px;
     height: 30px;
     float: left;
-    margin-left: 580px;
+    margin-left: 510px;
     margin-top: 63px;
 }
 .last_analytics{
@@ -445,7 +479,7 @@ hr{
     font-weight: 400;
     font-size: 20px;
     padding-top: 35px;
-    padding-left: 621px;
+    padding-left: 551px;
     font-weight: bold;
 }
 .footer_a{
@@ -454,8 +488,46 @@ hr{
     color: #8794BA;
     text-decoration: none;
     display: block;
+    padding-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+}
+.footer_products{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
     padding-right: 10px;
-    width:143px;
+    width:105px;
+    margin-left:120px;
+}
+.footer_pricing{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
+    display: block;
+    width:105px;
+    margin-left: 36px;
+}
+.footer_faq{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
+    display: block;
+    width:35px;
+    margin-left: 36px;
+}
+.footer_blog{
+    font-weight: 400;
+    font-size: 16px;
+    color: #8794BA;
+    text-decoration: none;
+    display: block;
+    width:35px;
+    margin-left: 36px;
+    margin-right: 230px;
 }
 .footer_link{
     display: flex;
@@ -464,25 +536,15 @@ hr{
     height: 16px;
     margin-right:620px;
     margin-left: 150px;
-    padding-bottom: 536px;
+
 }
-.facebook{
-    width: 14px;
-    height: 20px;
-    margin-left: 50px;
-    cursor: pointer;
-}
-.twitter{
-    width: 20px;
-    height: 20px;
+.fa-brands{
+    color:#8794BA;
+    font-size: 22px;
     margin-left: 40px;
-    cursor: pointer;
 }
-.instagram{
-    width: 20px;
-    height: 20px;
-    margin-left: 40px;
-    cursor: pointer;
+.fa-brands:hover{
+    color:#EF2A82;
 }
 .modalDialog {
 	position: fixed;
